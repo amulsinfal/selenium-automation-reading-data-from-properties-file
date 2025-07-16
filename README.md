@@ -7,25 +7,25 @@ This approach made my framework:
 - Environment-independent  
 
 ### Project Structure:
-<img width="300" alt="" src="https://github.com/user-attachments/assets/e2cf5c30-5697-4e0e-8d00-9ff92c45cc51" />
+<img width="300" alt="" src="https://github.com/user-attachments/assets/fedd3e9b-a2c3-4fb8-b858-9bb4313936f4" />
 
 ### Step 1: Create a config.properties File  
 Inside: src/test/resources/configurations/config.properties  
-<img width="1593" alt="" src="https://github.com/user-attachments/assets/69a6b00d-f9fc-4e35-b141-3e5777ecfa02" />
+<img width="1593" alt="" src="https://github.com/user-attachments/assets/8d62dd87-4682-4aea-945d-a34c755c49d4" />
 
 ### Step 2: Create a ConfigReader.java Utility Class  
 Inside: src/test/main/utilities/ConfigReader.java
-<img width="1593" alt="" src="https://github.com/user-attachments/assets/d2b7f25e-8dbc-4c16-b436-4e78e73860d1" />
+<img width="1593" alt="" src="https://github.com/user-attachments/assets/9224a304-a472-4a55-a9b8-b47adcb70cfc" />
 
 ### Step 3: Use It in the code  
 In **BaseTest.java** class:  
-<img width="1593" height="549" alt="" src="https://github.com/user-attachments/assets/b758a48e-e3d0-4efc-be19-0f40510f4391" />
+<img width="1593" height="549" alt="" src="https://github.com/user-attachments/assets/211aa285-3ed4-4c8f-8334-6ab53b03d11b" />
 
 In **DriverFactory.java** class
-<img width="1593"  alt="" src="https://github.com/user-attachments/assets/3394f85c-42a1-47e4-a451-be236fdbc026" />
+<img width="1593"  alt="" src="https://github.com/user-attachments/assets/f46e4b18-6d08-4035-bdb3-9da62cc783be" />
 
-In **LoginTest.java** class:  
-<img width="1593" alt="" src="https://github.com/user-attachments/assets/41bb5e21-ee52-47ba-88f2-ac1fbb7abeee" />
+In test class e.g.: **LoginTest.java**  
+<img width="1593" alt="" src="https://github.com/user-attachments/assets/1484070d-1150-4cba-b4d2-0cc6d3de0820" />
 
 ### Steps To Run:
 
@@ -41,7 +41,7 @@ In **LoginTest.java** class:
     ```
     mvn test
     ```
-    <img width="958" alt="WindowsTerminal_a3sg3QfIon" src="https://github.com/user-attachments/assets/a637e983-d2ee-4718-984f-73703248c46d" />
+    <img width="958" alt="" src="https://github.com/user-attachments/assets/b3c2a3c5-3015-491f-8102-946e7cb7a7bf" />
 
 ### Learning:  
 1. To create a config.properties file for storing reusable data  
